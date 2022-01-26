@@ -48,7 +48,7 @@ dibutuhkan untuk menjadi solusi, berikut adalah ciri-cirinya:
 _source: https://marutitech.com/problems-solved-machine-learning/_
 
 ### 5 Langkah penyelesaian machine learning
-<img align="left" height="200" src="https://github.com/soluchin/CE-Satria-Data/blob/main/1_PengantarStatisticalMachineLearning/5%20step%20ML.png">  
+<img align="left" height="200" src="5 step ML.png">  
 <br>
 <br>
 
@@ -84,7 +84,7 @@ else:
 Peranan statistika dalam pembelajaran mesin
 
 **Towards Statistical Learning:**  
-<img align="left" height="200" src="https://github.com/soluchin/CE-Satria-Data/blob/main/1_PengantarStatisticalMachineLearning/3%20step%20tsml.png">  
+<img align="left" height="200" src="3 step tsml.png">  
 1. **Core Statistics Consepts**  
 Statistika deskriptif, sebaran peluang, pengujian hipotesis, regresi dan model linear
 2. **Bayesian Thinking**  
@@ -95,11 +95,11 @@ Konsep pembelajaran mesin, supervised & unsupervised, metode resampling, regulas
 <br>
 
 ### Core Statistics Concepts
-<img width="600" src="https://github.com/soluchin/CE-Satria-Data/blob/main/1_PengantarStatisticalMachineLearning/step%201%20tsml.png">  
+<img width="600" src="step 1 tsml.png">  
 
 ### Bayesian Thinking
-<img width="600" src="https://github.com/soluchin/CE-Satria-Data/blob/main/1_PengantarStatisticalMachineLearning/step%202%20tsml.png">  
+<img width="600" src="step 2 tsml.png">  
 
 ### Statistical Machine Learning
-<img width="600" src="https://github.com/soluchin/CE-Satria-Data/blob/main/1_PengantarStatisticalMachineLearning/step%203%20tsml.png">  
+<img width="600" src="step 3 tsml.png">  
 
