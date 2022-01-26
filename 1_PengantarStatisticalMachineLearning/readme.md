@@ -92,8 +92,6 @@ Peluang bersyarat, sebaran prior & posterior, dan kemungkinan maksimum
 3. **Statistical Machine Learning**  
 Konsep pembelajaran mesin, supervised & unsupervised, metode resampling, regulasi & seleksi model, model klasifikasi, non-linear, tree-based model, support vector machine
 
-<br>
-
 ### Core Statistics Concepts
 <img width="600" src="step 1 tsml.png">  
 
@@ -103,3 +101,5 @@ Konsep pembelajaran mesin, supervised & unsupervised, metode resampling, regulas
 ### Statistical Machine Learning
 <img width="600" src="step 3 tsml.png">  
 
+## Statistical Machine Learning
+Model secara umum didefinisikan sebagai fungsi <img src="https://render.githubusercontent.com/render/math?math=\pm">
