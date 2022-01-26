@@ -19,7 +19,7 @@ _Oleh: Prof. Dr. Ir. Khairil Anwar Notodiputro, MS_
 - Statistika dan sains data sulit untuk dipisahkan
 - Menjadikan sains data lebih luas dari statistika itu sendiri
 
-## Overview of Machine Learning
+## Overview of Machine Learning  
 **Apa itu machine learning?**
 - **Nvidia:** Machine learning adalah praktik penggunaan algoritma untuk mengurai data, belajar darinya, dan kemudian membuat penentuan atau prediksi tentang sesuatu di dunia  
 - **McKinsey & Company:** Machine learning didasarkan pada algoritme yang dapat belajar dari data tanpa bergantung pada pemrograman berbasis aturan  
@@ -29,6 +29,7 @@ _Oleh: Prof. Dr. Ir. Khairil Anwar Notodiputro, MS_
 sehingga komputasi tidak dapat dipisahkan. Dilakukan menggunakan teknik Kecerdasan Buatan atau Artificial Intelligence (AI) untuk aplikasi di berbagai bidang. Model ML dapat 
 belajar, mengidentifikasi pola, dan bisa membuat keputusan dengan sedikit interensi manusia sehingga lebih efisien dan mengurangi kesalahan akibat _human error_.
 
+**Kapan machine learning digunakan?**  
 &nbsp;&nbsp;&nbsp;Tidak semua masalah yang mengandung angka dan data dapat diselesaikan menggunakan teknik machine learning. Ada beberapa kriteria dimana machine learning
 dibutuhkan untuk menjadi solusi, berikut adalah ciri-cirinya:
 1. Masalah memerlukan data untuk proses pembelajaran
@@ -37,4 +38,9 @@ dibutuhkan untuk menjadi solusi, berikut adalah ciri-cirinya:
 4. Diperlukannya pemahaman pola
 5. Ingin membangun sistem rekomendasi
 6. Memerlukan pengidentifikasian entitas atau objek
+
+**Pengaplikasian machine learning**  
+<img src="https://cdn-gcp.marutitech.com/wp-media/2016/10/77de88c8-top-9-applications-of-machine-learning-min.png" style="float: right;width:800px;"/>  
+_source: https://marutitech.com/problems-solved-machine-learning/_
+
 
