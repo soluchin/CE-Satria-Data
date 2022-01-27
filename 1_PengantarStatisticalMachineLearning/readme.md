@@ -102,4 +102,35 @@ Konsep pembelajaran mesin, supervised & unsupervised, metode resampling, regulas
 <img width="600" src="step 3 tsml.png">  
 
 ## Statistical Machine Learning
-Model secara umum didefinisikan sebagai fungsi <img src="https://render.githubusercontent.com/render/math?math=\pm">
+Model secara umum didefinisikan sebagai fungsi <img src="https://latex.codecogs.com/gif.latex?Y%3Df%28X%29%20&plus;%20%5Cepsilon">, kemudian kita akan menduga f dengan 2 alasan yaitu **prediksi** dan **inferensi**.  
+
+
+**prediksi:**
+- Jika kita mengetahui besaran x nantinya kita dapat menduga besaran <img src="https://latex.codecogs.com/gif.latex?%5Chat%7BY%7D%3D%5Chat%7Bf%7D%28X%29">
+- Apakah dugaan akurat? harus memperhatikan _reducible error_ dan _irreducible error_
+- <img src="https://latex.codecogs.com/gif.latex?E%28Y-%5Chat%7BY%7D%29%5E2%3D%5Bf%28X%29-%5Chat%7Bf%7D%28X%29%5D%5E2&plus;Var%28%5Cepsilon%29">
+- <img src="https://latex.codecogs.com/gif.latex?%5Bf%28X%29-%5Chat%7Bf%7D%28X%29%5D%5E2%20%5Crightarrow%20reducable"> **reducable** adalah kesalahan yang timbul dari ketidaksesuaian antara f̂ dan f. f adalah hubungan antara X dan Y, tetapi kita hanya dapat memperkirakannya.
+- <img src="https://latex.codecogs.com/gif.latex?Var%28%5Cepsilon%29%20%5Crightarrow%20irreducable"> **irreducable** adalah nilai yang muncul dari fakta bahwa X tidak sepenuhnya menentukan Y.
+- Semakin minimum nilai reducable error maka penduga <img src="https://latex.codecogs.com/gif.latex?%5Chat%7BY%7D"> juga semakin mendekati nilai Y aktual.
+
+**inferensi:**
+- Menarik kesimpulan bagaimana X dapat menjelaskan Y sehingga f(X) tidak lagi dipandang sebagai _black box_
+- Inferensi dapat menjawab
+  - Peubah penjelas (X) apa yang memengaruhi peubah respon (Y)
+  - Apakah hubungan X dan Y positif/negatif?
+  - Apakah hubungannya bersifat linear/non-linear?
+
+**prediksi** | **inferensi**
+--|--
+tidak penting bagaimana bentuk modelnya asalkan dapat memprediksi dengan akurat dan presisi | mementingkan bentuk modelnya dan mempelajari hakikat hubungan antara X dan Y
+fokus kepada <img src="https://latex.codecogs.com/gif.latex?%5Chat%7BY%7D%20%5Crightarrow%20Y"> | fokus dengan hubungan X dan Y
+
+**Bagaimana menduga f?**
+&nbsp;&nbsp;&nbsp;Dengan digunakannya data penggamatan sebanyak n, dibagi menjadi 2 yaitu data latih dan data uji. Data latih digunakan untuk mengajari model menduga atau memprediksi nilai f, artinya model akan mempelajari dan menemukan rumus sehingga Y = f(X). Data uji digunakan untuk menilai seberapa baik model dapat memprediksi data baru yang belum pernah dilihat sebelumnya oleh model. Pendekatannya bisa bersifat **parametrik** maupun **non-parametrik**.
+
+### Supervised vs Unsupervised
+**Supervised**|**Unsupervised**
+--|--
+setiap prediktor memiliki label respon|prediktor tidak memiliki label respon
+memprediksi label secara akurat|hanya dapat membedakan berdasarkan features yang ada
+dapat melakukan inferensi|klasterisasi
