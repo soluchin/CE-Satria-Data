@@ -16,14 +16,14 @@ _Oleh: Prof. Dr. Ir. Khairil Anwar Notodiputro, MS_
 4. Statistical Machine Learning
 5. Special Topic: Active Learning
 
-## Introduction:
+## I. Introduction:
 **Apa itu statistical machine learning?**
 - Statistical machine learning sangat berkembang di berbagai negara
 - Menggabungkan statistika, komputasi, sistem dan optimasi
 - Statistika dan sains data sulit untuk dipisahkan
 - Menjadikan sains data lebih luas dari statistika itu sendiri
 
-## Overview of Machine Learning  
+## II. Overview of Machine Learning  
 ### Apa itu machine learning?
 - **Nvidia:** Machine learning adalah praktik penggunaan algoritma untuk mengurai data, belajar darinya, dan kemudian membuat penentuan atau prediksi tentang sesuatu di dunia  
 - **McKinsey & Company:** Machine learning didasarkan pada algoritme yang dapat belajar dari data tanpa bergantung pada pemrograman berbasis aturan  
@@ -80,7 +80,7 @@ else:
 6. **Naive bayes** - regression & classification
 7. **K-nearest neighbour (KNN)** - classification
 
-## The Role of Statistics
+## III. The Role of Statistics
 Peranan statistika dalam pembelajaran mesin
 
 **Towards Statistical Learning:**  
@@ -101,7 +101,7 @@ Konsep pembelajaran mesin, supervised & unsupervised, metode resampling, regulas
 ### Statistical Machine Learning
 <img width="600" src="step 3 tsml.png">  
 
-## Statistical Machine Learning
+## IV. Statistical Machine Learning
 Model secara umum didefinisikan sebagai fungsi <img src="https://latex.codecogs.com/gif.latex?Y%3Df%28X%29%20&plus;%20%5Cepsilon">, kemudian kita akan menduga f dengan 2 alasan yaitu **prediksi** dan **inferensi**.  
 
 
