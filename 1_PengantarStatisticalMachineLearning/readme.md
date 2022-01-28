@@ -129,8 +129,52 @@ fokus kepada <img src="https://latex.codecogs.com/gif.latex?%5Chat%7BY%7D%20%5Cr
 &nbsp;&nbsp;&nbsp;Dengan digunakannya data penggamatan sebanyak n, dibagi menjadi 2 yaitu data latih dan data uji. Data latih digunakan untuk mengajari model menduga atau memprediksi nilai f, artinya model akan mempelajari dan menemukan rumus sehingga Y = f(X). Data uji digunakan untuk menilai seberapa baik model dapat memprediksi data baru yang belum pernah dilihat sebelumnya oleh model. Pendekatannya bisa bersifat **parametrik** maupun **non-parametrik**.
 
 ### Supervised vs Unsupervised
+
+<img width="600" src="https://www.researchgate.net/profile/Zhenyu-Wen-2/publication/336642133/figure/fig3/AS:815304842170368@1571395230317/Examples-of-Supervised-Learning-Linear-Regression-and-Unsupervised-Learning.png">
+
 **Supervised**|**Unsupervised**
 --|--
 setiap prediktor memiliki label respon|prediktor tidak memiliki label respon
 memprediksi label secara akurat|hanya dapat membedakan berdasarkan features yang ada
 dapat melakukan inferensi|klasterisasi
+
+### Supervised
+
+**leaf-width**|**leaf-length**|**species**
+--|--|--
+2.7|4.9|small-leaf
+3.2|5.5|big-leaf
+2.9|5.1|small-leaf
+3.4|6.8|big-leaf
+
+- Kasus memiliki data label (nilai pada variabel respon)
+- Misal, seseorang meneliti dua species tumbuhan dimana tumbuhan tersebut dibedakan menjadi dua **big-leaf** dan **small-leaf**
+- Peneliti memiliki data atribut (features) **leaft-width** dan **leaf-length**
+- Ketika peneliti hanya memiliki data panjang dan lebar daun, dengan memperhatikan pola-pola sebelumnya peneliti dapat menjawab termasuk ke species apa tumbuhan tersebut
+- Proses mempelajari pola disebut proses **training** menggunakan algoritma tertentu
+- Algoritma dapat membedakan data baru yang tidak memiliki label dengan pola-pola yang sudah dimodelkan
+
+### Unsupervised
+
+<img width="600" src="https://media.geeksforgeeks.org/wp-content/uploads/merge3cluster.jpg">
+
+- Kondisi dimana data tidak memiliki nilai label (nilai variabel respon)
+- Model tidak memiliki petunjuk bagaimana mengklasifikasi data, hanya dapat melihat bahwa data yang satu memiliki pola yang berbeda dengan data lainnya
+- Sering disebut clustering
+- Ketika model membuat cluster, sulit untuk menjawab kluster ini merepresentasikan apa?
+- Tidak jarang model menemukan pola tidak bermakna, seringkali juga model menemukan pola yang memiliki informasi bermakna
+
+## V. Active Learning
+- Berguna untuk memperbaiki kinerja model dengan cara menekan **error-rate** dan menaikan **akurasi prediksi**
+- Digunakan pada pemodelan prediktif untuk menghasilkan prediksi seakurat mungkin
+- Contoh:
+  - Klasifikasi email spam
+  - Sistem rekomendasi
+  - Deteksi penyakit
+- Data: Dibutuhkan data yang memiliki label
+
+**Active learning** adalah proses untuk mendapatkan data tambahan dari data yang sebelumnya tidak memiliki label dengan cara memilih data yang paling informatif untuk diberikan label. Active learning dapat memilih data secara automatis untuk diberikan label sehingga proses pelabelan akan lebih efektif dan efisien.
+
+**Objective:** Membandingkan kinerja model klasifikasi terpilih yang diperbaiki menggunakan metode penambahan data dengan penarikan contoh secara acak dan active learning
+
+<img widht="800" src="active learning model enhancement.png">
