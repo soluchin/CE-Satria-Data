@@ -61,3 +61,5 @@ Proses ini memastikan bahwa data siap untuk dianalisis dan terpercaya (Veracity 
 5. Evaluation – Which model best meets the business objectives?
 Deployment – How do stakeholders access the results?
 
+### 3 Aktifitas utama data preparation
+<img widht="600" src="3 aktifitas utama.png">
