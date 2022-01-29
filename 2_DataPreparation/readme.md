@@ -48,4 +48,16 @@ Proses ini memastikan bahwa data siap untuk dianalisis dan terpercaya (Veracity 
 
 **Data preparation** terjadi dari proses pertama hingga proses transformasi data sehingga menjadikan 3 dari 5 proses tersebut merupakan preparasi data.
 
-<img align="left" width="600" src="https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png">
+
+### CRISP-DM
+<img align="left" width="300" src="https://www.datascience-pm.com/wp-content/uploads/2021/02/CRISP-DM.png">
+<br>
+
+**CRoss Industry Standard Process for Data Mining (CRISP-DM)** is a process model with six phases that naturally describes the data science life cycle:
+1. Business understanding – What does the business need?
+2. Data understanding – What data do we have / need? Is it clean?
+3. Data preparation – How do we organize the data for modeling?
+4. Modeling – What modeling techniques should we apply?
+5. Evaluation – Which model best meets the business objectives?
+Deployment – How do stakeholders access the results?
+
