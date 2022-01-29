@@ -17,7 +17,7 @@ _Oleh: Prof. Dr. Ir. Khairil Anwar Notodiputro, MS_
 5. Special Topic: Active Learning
 
 ## I. Introduction
-**Apa itu statistical machine learning?**
+### Apa itu statistical machine learning?
 - Statistical machine learning sangat berkembang di berbagai negara
 - Menggabungkan statistika, komputasi, sistem dan optimasi
 - Statistika dan sains data sulit untuk dipisahkan
