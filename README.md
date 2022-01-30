@@ -1,4 +1,8 @@
 # Satria Data 2021
+Team:
+- Rafi Solichin. [linked.in](linkedin.com/in/rafisolichin)
+- Hudzaifah Muttaqin
+- Fadil Risdian Ansori
 
 # Kuliah Online - Credit Earning 
 Catatan Materi Kuliah Online Credit Earning Satria Data 2021
