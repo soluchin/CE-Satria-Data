@@ -63,3 +63,22 @@ Deployment – How do stakeholders access the results?
 
 ### 3 Aktifitas utama data preparation
 <img width="600" src="3 aktifitas utama.png">
+
+## II. Data Cleaning
+- Proses penting setelah seleksi fitur/atribut
+- Terdiri dari 2 aktivitas: **quality checking** & **data reduction**
+- **Quality checking:** memeriksa data untuk menjamin standar kualitas data
+- **Data reduction:** meringkas data tanpa mengurangi informasi yang ada pada data aslinya
+
+### Quality Checking
+Terdapat beberapa aspek yang perlu diperhatikan untuk menilai apakah suatu data berkualitas atau tidak. Biasa disebut sebagai **Quality Assurance Framework** (QAF).
+berikut adalah dimensi kualitas data yang diperhatihan:
+- Completeness
+- Accuracy
+- Consistency
+- Timeliness
+- Believability
+- Value added
+- Interpretablity
+- Accessibility
+
