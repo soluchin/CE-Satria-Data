@@ -2,7 +2,7 @@
 **TEAM:**
 Name| Contact
 --|--
-Rafi Solichin | [linked.in](linkedin.com/in/rafisolichin)
+Rafi Solichin | [linkedin](linkedin.com/in/rafisolichin)
 Hudzaifah Muttaqin |
 Fadil Risdian Ansori |
 
