@@ -82,3 +82,48 @@ berikut adalah dimensi kualitas data yang diperhatihan:
 - Interpretablity
 - Accessibility
 
+### Handling missing value
+Menggunakan teknik imputasi, namun teknik ini memiliki resiko yaitu data sudah tidak lagi real atau asli.
+- Cek secara manual
+- Berikan nilai 0 (sangat beresiko)
+- Berikan kode: "None", "999" dsb
+- Diisi dengan rata-rata variabel dengan memperhatikan grup/kelas dimana data itu berada
+- Estimasi menggunakan regresi, clustering, dsb
+
+### Noisy data
+<img width="600" src="https://www.researchgate.net/profile/Jianwen-Luo-2/publication/220227041/figure/fig4/AS:729402707034117@1550914565642/The-ideal-data-the-noisy-data-A-A-A-and-the-smoothed-data-using-the.jpg">
+
+Noisy data dimana data memuat error atau memuat outliers (data yang secara nyata berbeda dengan data-data yang lain).  
+**Penyebab:**
+- Kesalahan input data oleh faktor manusia maupun kesalahan alat ukur
+- Terdapat masalah pada saat proses transmisi data
+- Terdapat output data yang duplikat, tidak lengkap & tidak konsisten
+
+**Dapat diatasi dengan data transformation** (_Clustering_, _Smoothing_)  
+- Smoothing  
+Melakukan pengelompokkan data ke dalam kelompok/ kategori tertentu. Contoh median smoothing, moving average dan binning
+- Clustering  
+Mengelompokkan suatu set objek sedemikian rupa sehingga setiap objek yang berada dalam satu cluster memiliki kemiripin yang lebih tinggi dibandingkan dengan objek yang ada di cluster lain
+
+### Outlier
+&nbsp;&nbsp;&nbsp;Sejenis noise tapi melenceng terlalu jauh, namun tidak selamanya outlier ini adalah data yang salah. Bisa jadi karena memang valuenya benar namun berbeda jauh dengan nilai yang lainnya. Sebagai contoh, bila seseorang melakukan survei di perusahaan dan menanyakan gaji dari setiap staff dan bossnya, bisa jadi gaji bosnya berada jauh dengan nilai rata-ratanya namun data tersebut valid. Outlier lebih mudah dideteksi menggunakan grafik.
+- Univariate: Grafik kurva normal, boxplot
+- Multivariate: Clustering, curve fitting
+
+### Inkonsistensi data
+&nbsp;&nbsp;&nbsp;Masalah inkonsistensi data muncul karena adanya hubungan antara satu variabel dengan variabel lainnya pada suatu set data namun dari kedua set tersebut dihasilkan suatu informasi yang berbeda. Contoh:
+- Hubungan antara data **umur** dan **tanggal lahir**, jika **tahun lahir=2000** namun tertulis **umur=31**.
+- Antara **kumulatif penjualan mingguan** dengan **penjualan harian**. Penjualan harian = 4,2,1,3,4,2; kumulatif mingguan= 34.
+- Data **total mahasiswa= 30** namun tersedia 32 data mahasiswa
+
+**Solusi:** Buat rumusan validasi data berisi kumpulan peraturan konsistensi antara nilai atribut baik dalam sebuah record maupun antar record
+
+### Dimension reduction
+Perlu melakukan reduksi data untuk mengatasi data yang sangat banyak dan alat komputasi tidak mampu untuk mengolahnya, sehingga data menjadi lebih ringkas namun tidak menghilangkan informasi yang dibutuhkan untuk proses analisis. Proses ini dilakukan dengan cara mengurangi ukuran dimensi data baik itu data kolom (atribut/variabel/features) maupun baris (record, cases).  
+**teknik yang dapat dilakukan:**
+- Feature selection: hanya memilih variabel yang akan diteliti
+- Clustering: pengelompokkan data berdasarkan record dan variabel, bisa dengan smoothing untuk record dan PCA untuk variabel
+- Rasio missing values: menghilangkan data yang memiliki missing value tinggi
+- Variasi: menghilangkan variabel dengan tingkat keragaman kecil karena tidak memiliki banyak informasi yang dapat diolah
+
+## III. Data Transformation
