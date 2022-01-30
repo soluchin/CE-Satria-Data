@@ -1,4 +1,6 @@
-# Credit Earning Satria Data 2021
+# Satria Data 2021
+
+# Kuliah Online - Credit Earning 
 Catatan Materi Kuliah Online Credit Earning Satria Data 2021
 
 1. [Pengantar Statistcal Machine Learning](1_PengantarStatisticalMachineLearning)
