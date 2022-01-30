@@ -160,3 +160,13 @@ Pada supervised binning, data yang akan dikategorikan memiliki kelas atau label 
 <img width="600" src="https://user-images.githubusercontent.com/60084317/151703757-3744240f-86fb-4b57-9b31-2b6fe016d7ef.png">
 
 ## IV. Data Integration
+- Data mentah yang sudah diolah secara otomatis berasal dari sensor (IoT), web, dan format lainnya yang digabungkan kedalam satu format (database)
+- Data yang sudah ditransformasikan kemudian digabung ke dalam sebuah sistem terintegrasi dan terkoneksi.
+- Tantangan: menjaga integritas, sekuritas data dan kecepatan akses data
+- Jenis integrasi data:
+  - Consolidation: data diletakkan di suatu tempat
+  - Propagation: data disebarkan dan dicopy di beberapa tempat agar menyediakan back-up
+  - Visualisasi data (dashboard): membangun antarmuka untuk mengakses dalam satu tempat akses.
+
+
+- 
