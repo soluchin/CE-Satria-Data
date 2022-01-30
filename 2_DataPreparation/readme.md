@@ -127,3 +127,18 @@ Perlu melakukan reduksi data untuk mengatasi data yang sangat banyak dan alat ko
 - Variasi: menghilangkan variabel dengan tingkat keragaman kecil karena tidak memiliki banyak informasi yang dapat diolah
 
 ## III. Data Transformation
+&nbsp;&nbsp;&nbsp;Proses mengubah format dan struktur data menjadi sebuah format database standar untuk keperluan integrasi data, penyimpanan maupun analisis. Beberapa teknik yang dapat digunakan seperti aggregation, Normalization/standarize, Feature engineering.
+### Agregation
+- Mendapatkan gambaran (summarize) data pada level yang lebih tinggi
+- Mengubah dari data yang berdimensi tinggi ke dimensi yang lebih rendah sehingga memudahkan proses analisis
+- Contoh: penjualan harian diubah menjadi data penjualan mingguan, jumlah dari setiap kecamatan diubah menjadi jumlah dari setiap kabupaten/kota.
+- Agregasi yang biasa digunakan: Jumlah, mean, median, modus, quartil.
+
+### Normalization
+- Melakukan rescalling nilai variabel yang berbeda unit agar setara antara satu variabel dengan variabel lainnya.
+- Penghasilan per-bulan (500ribu-50juta) vs presentasi pengeluaran (1-100%) vs lama sekolah (1-20tahun)
+- Metode yang umum digunakan: [min-max scalling](https://androidkt.com/how-to-scale-data-to-range-using-minmax-normalization/), [z score normalization](https://id.wikihow.com/Menghitung-Z-score#:~:text=Z%2Dscore%20digunakan%20untuk%20mengambil,%2C%20varian%2C%20dan%20standar%20deviasinya.), [decimal scalling](https://www.geeksforgeeks.org/data-normalization-in-data-mining/).
+- Normalization tidak menghilangkan outlier
+
+### Feature engineering
+<img width="600" src="https://user-images.githubusercontent.com/60084317/151703005-75d4f8c4-e3fe-41ef-8f09-331a2177e4f8.png">
