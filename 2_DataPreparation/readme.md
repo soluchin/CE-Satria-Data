@@ -142,3 +142,21 @@ Perlu melakukan reduksi data untuk mengatasi data yang sangat banyak dan alat ko
 
 ### Feature engineering
 <img width="600" src="https://user-images.githubusercontent.com/60084317/151703005-75d4f8c4-e3fe-41ef-8f09-331a2177e4f8.png">
+
+### Unsupervised binning method
+- Equal width:
+rentang nilai pada setiap kategori sama, digunakan untuk melihat pola sebaran atau histogram.
+- Equal frequency:
+setiap kategori memiliki frekuensi yang sama, digunakan untuk keperluan data smoothing.
+- [click](https://www.geeksforgeeks.org/binning-in-data-mining/?ref=lbp) untuk materi lebih lanjut
+
+### Supervised binning
+- Entropy-based binning:
+Pada supervised binning, data yang akan dikategorikan memiliki kelas atau label sehingga pengkategorian 1 bin harus berisi kelas yang sama.
+- Digunakan Entropy yaitu ukuran ketidak-murnian (impurity). Entropy tinggi menandakan dataset memiliki banyak klasifikasi, entropy rendah sebaliknya.
+- [click](https://saedsayad.com/supervised_binning.htm) untuk materi lebih lanjut
+
+### Feature encoding
+<img width="600" src="https://user-images.githubusercontent.com/60084317/151703757-3744240f-86fb-4b57-9b31-2b6fe016d7ef.png">
+
+## IV. Data Integration
