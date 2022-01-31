@@ -3,7 +3,7 @@
 Name| Contact
 --|--
 Rafi Solichin | [linkedin](linkedin.com/in/rafisolichin)
-Hudzaifah Muttaqin |
+Hudzaifah Muttaqin | [linkedin](lhttps://www.linkedin.com/in/hudzaifah-muttaqin/)
 Fadil Risdian Ansori |
 
 # Kuliah Online - Credit Earning 
